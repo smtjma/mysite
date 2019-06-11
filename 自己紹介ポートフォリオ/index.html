@@ -15,62 +15,75 @@
     
 <script src=""></script>
   </head>
-  <body>
+  <body class= "bodycss">
       <header class="sticky-top">
           <nav class="navbar navbar-expand-lg navbar-light" id="home">
-            <a class="navbar-brand" href="#">JOMABOY</a>
+            <a class="navbar-brand text-white" href="#">JOMABOY</a>
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse header-righ justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">PROFILE</a>
+                  <a class="nav-link text-white" href="#about">PROFILE</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link text-white" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <a class="nav-link text-white" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#hobby">future</a>
+                  <a class="nav-link text-white" href="#future">future</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
+                  <a class="nav-link text-white" href="#contact">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
         </header>
         
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-12 p-0"><img src="天気の子.jpg" class="w-100" alt="ホーム画像"></div>
+        
+        <div class="container-fluid example">
+          <div class="row id=home">
+            <div class="col-md-12 p-0">
+              <img src="人.jpg" class=""/>
+              <h1>JOMA IMAI's PORTFOLIO　<br>
+              <span class="subtitle">Web Engineer</span>
+              </h1>
+            
+            
+            
+              
             </div>
+              
+              
+          </div>	
           </div>
-        
     
-        
-            <div class="container">
+          
+            <div class="container" id="about">
               <div class="row">
-                <h1>ABOUT ME</h1>
+                <h1>MY PROFILE</h1>
               </div>
             </div>
             <div class="container">
               <div class="row">
                 <div class="col-md-4">
-                  <img src="kobaboy.jpg" alt="顔写真" class="aboutPhoto text-center rounded-circle img-adjust" >
+                  <img src="プロフィール.jpg" alt="顔写真" class="text-center w-100 rounded-circle img-adjust" >
                 </div>
-                <div class="col-md-8 about-text img-adjust">
-                  <p>はじめまして！私は今井丈馬("<a href="https://twitter.com/jomaboy3">@jomaboy3</a>")と申します。<br>
-                    現在、ベンチャー企業にてエンジニアのインターン生として働いています。<br>
-                    kobaboyは私の師匠です。将来は優秀なエンジニアになると思うので全国の女性のみなさん、お早めに。<br>
-                    ちなみに僕は現在、彼女はおりません。<br>
-                    将来はメガベンチャーにエンジニアとして就職したいと思っております。</p>
-                    <p><span class="font-weight-bold">年齢：</span>20</p>
-                    <p><span class="font-weight-bold">活動拠点：</span>東京</p>
-                  
+                <div class="col-md-6">
+                  <h3>今井丈馬("<a href="https://twitter.com/jomaboy3">@jomaboy3</a>")</h3>
+                  <h5>大学生/学生エンジニア</h5>
+                  <p>
+                    神奈川県秦野市生まれ。現在は東京都在住。<br>
+                    好きな食べ物：ラーメン　<br>
+                    青山学院大学総合文化政策学部在学中<br>
+                    現在、ベンチャー企業のエンジニアのインターン生<br>
+                    メガベンチャーにサーバーサイドエンジニアとしての就職を一番近い目標としている。</p>
+                    <a href="https://github.com/smtjma"><i class="fab fa-github fa-3x" style="font-size:70px; color:white;"></i></a>
+                    
                 </div>
               </div>
       
@@ -79,7 +92,7 @@
       
       
          
-            <div class="container">
+            <div class="container id=skills">
               <div class="row">
                 <h1>MY SKILLS</h1>
               </div>
@@ -115,12 +128,13 @@
             </div>
           
           
-            <div class="container">
+            <div class="container" id="portfolio">
               <div class="row">
                 <h1>PORTFOLIO</h1>
-                <span>(※模写制作を含む)</span>
+                <h2>※準備中※</h2>
+                
               </div>
-            </div
+            </div>
             <div class="container">
               <div class="row">
                 <div class="github text-center">
@@ -132,43 +146,26 @@
               </div>
             </div>
             
-                <div class="container">
+                <div class="container" id="future">
                   <div class="row">
                     <h1>FUTURE</h1>
           
               </div>
             </div>
           
-      
-          
-            <div class="container">
+            
+            <div class="container" id="contact">
               <div class="row">
-                <h1>CONTACT ME</h1>
+                
+                <h1 class="contactme">CONTACT ME</h1>
+              </div>
+              <div class="row section-contact">
+                  <input type="text" class="text-email" value="joma.imai@peaks-inc.com" readonly="readonly">
               </div>
             </div>
-            <div class="container">
-              <div class="row">
-                <form class="form wrap" action="index.html" method="post">
-                  <div class="form name">
-                    <label for="name">お名前</label>
-                    <input type="text" name="name" value="" placeholder="氏名">
-                  </div>
-                  <div class="form email">
-                    <label for="mailaddress">メールアドレス</label>
-                    <input type="email" name="mailaddress" value="" placeholder="メールアドレス">
-                  </div>
-                  <div class="form message">
-                    <label for="massage">お問い合わせ内容</label>
-                    <textarea type="text" name="message" rows="10" cols="30"></textarea>
-                  </div>
-                  <div class="form submit">
-                    <a href="#">
-                      <input type="submit" name="" value="入力を確認する">
-                    </a>
-                  </div>
-                </form>
-              </div>
-              </div>
+            
+              
+            
       
       
           
