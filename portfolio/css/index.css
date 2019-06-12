@@ -3,6 +3,8 @@
     background-color: rgb(18, 19, 17);
     color: aliceblue;
 }
+
+
 .img{
     object-fit: contain;
 }
@@ -19,6 +21,7 @@
 }
 .example {/*親div*/
     position: relative;/*相対配置*/
+    
     }
   
 .example h1 {
@@ -35,11 +38,15 @@
     margin:0;
     padding:0;
     white-space: nowrap;
-    }
+    
+    
+
+}
   
 .example img {
     width: 100%;
-    }
+}
+    
 input.text-email {
     background-color: #666;
     border: solid #101010 1px;
@@ -57,4 +64,21 @@ input.text-email {
 .section-contact {
     width: 880px;
     margin: 0 auto;
+}
+
+.subtitle2 {
+    font-size: 0.7em;
+    font-weight: normal;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    color: gray
+    
+}
+
+
+     
+
+.display{
+    display: block
 }
